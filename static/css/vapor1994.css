@@ -28,6 +28,19 @@
  *
  * Update the foundational and global aspects of the page.
  */
+ :root {
+  --blue: #8BE9FD;
+  --var(--white): #F8F8F2;
+  --yellow: #F1FA8C;
+  --purple: #BD93F9;
+  --green: #50FA7B;
+  --pink: #FF79C6;
+  --grey: #98989d;
+  --red: #FF5555;
+  --orange: #FFB86C;
+  --dark: #44475A;
+  --darker: #282A36;
+}
 
  html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -53,8 +66,8 @@
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(241, 28, 172, 0.8);
+  color: var(--grey);
+  background-color: var(--dark);
   border-right: 3px solid black;
 }
 @media (min-width: 48em) {
@@ -70,13 +83,13 @@
 
 /* Sidebar links */
 .sidebar-about a {
-  color: rgba(255, 255, 255, 1);
+  color: var(--var(--white));
 }
 .sidebar-about a:hover,
 .sidebar-about a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--var(--white));
+  background-color: var(--pink);
 }
 
 /* About section */
@@ -87,37 +100,37 @@
   padding: 5px;
   border: 3px solid black;
   box-shadow: 3px 2px black;
-  background-color: rgba(0, 136, 255, 0.8);
+  background-color: var(--blue);
 }
 
 .sidebar-about h1:hover,
 .sidebar-about h1:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--blue);
+  background-color: var(--darker);
 }
 
 .lead {
-  color: white;
+  color: var(--white);
   margin-top: 0;
   font-size: 0.8rem;
   padding: 5px;
   border: 3px solid black;
   box-shadow: 3px 3px black;
-  background-color: rgba(0, 136, 255, 0.8);
+  background-color: var(--blue);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
 .lead a {
-  color: white;
+  color: var(--white);
 }
 
 .lead a:hover,
 .lead a:focus {
   text-decoration: none;
-  color: white;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 /* Sidebar nav */
@@ -128,7 +141,7 @@
   display: block;
   line-height: 1.75;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   padding-left: 10px;
   border: 3px solid black;
@@ -142,12 +155,12 @@ a.sidebar-nav-item {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 .sidebar-nav-item.active {
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
   font-weight: bold;
 }
 
@@ -234,14 +247,14 @@ video {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .post-date {
   display: block;
   line-height: 1.75;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   padding-left: 10px;
   border: 3px solid black;
@@ -253,12 +266,12 @@ video {
 a.post-date:hover,
 a.post-date:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 h1.page-title {
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   border: 3px solid black;
   box-shadow: 3px 3px black;
@@ -269,22 +282,22 @@ h1.page-title {
 }
 .h-feed h1.page-title:hover,
 .h-feed h1.page-title:focus {
-  background-color: rgba(170, 0, 238, 1);
+  background-color: var(--darker);
 }
 
 .page-title a {
   display: block;
   line-height: 1.25;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   font-family: "Bungee", cursive;
   width: 100%;
 }
 .page-title a:hover,
 .page-title a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker));
 }
 
 .e-content {
@@ -295,13 +308,13 @@ h1.page-title {
 }
 
 .e-content a {
-  color: rgba(170, 0, 238, 0.8);
+  color: var(--darker);
 }
 .e-content a:hover,
 .e-content a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 .page {
@@ -310,7 +323,7 @@ h1.page-title {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .page-content {
@@ -321,7 +334,7 @@ h1.page-title {
 }
 
 .photos-grid-container img {
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   padding: 3px;
   margin: 5px;
   border: 3px solid black;
@@ -333,7 +346,7 @@ h1.page-title {
   display: block;
   line-height: 1.75;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   padding: 3px 3px 3px 10px;
   border: 3px solid black;
@@ -344,7 +357,7 @@ h1.page-title {
 }
 
 .microblog_conversation {
-  background-color: white;
+  background-color: var(--white);
   padding: 3px;
   margin-top: 10px;
   margin-left: 15px;
@@ -361,7 +374,7 @@ h1.page-title {
   display: block;
   line-height: 1.75;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   padding: 3px 3px 3px 10px;
   border: 3px solid black;
@@ -394,17 +407,17 @@ h1.page-title {
 }
 
 .microblog_text a {
-  color: rgba(170, 0, 238, 0.8);
+  color: var(--darker);
 }
 .microblog_text a:hover,
 .microblog_text a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 .microblog_time a {
-  color: rgba(170, 0, 238, 0.8);
+  color: var(--darker);
   margin: 5px;
   padding: 3px 3px 3px 10px;
   font-size: 0.7rem;
@@ -412,12 +425,12 @@ h1.page-title {
 .microblog_time a:hover,
 .microblog_time a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 .bookshelf_book {
-  background-color: white;
+  background-color: var(--white);
   padding: 3px;
   margin-top: 20px;
   margin-left: 15px;
@@ -433,7 +446,7 @@ h1.page-title {
 }
 
 .bookshelf_book img {
-  background-color: white;
+  background-color: var(--white);
   margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px black;
@@ -443,10 +456,10 @@ h1.page-title {
 
 .bookshelf_book img:hover,
 .bookshelf_book img:focus {
-  background-color: white;
+  background-color: var(--white);
   margin: 5px;
-  border: 2px solid rgba(170, 0, 238, 0.8);
-  box-shadow: 2px 2px rgba(170, 0, 238, 0.8);
+  border: 2px solid var(--darker);
+  box-shadow: 2px 2px var(--darker);
   border-radius: 3px;
   vertical-align: top;
 }
@@ -468,7 +481,7 @@ h1.page-title {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .h-entry {
@@ -477,23 +490,23 @@ h1.page-title {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--white);
 }
 .h-entry a {
-  color: rgba(170, 0, 238, 0.8);
+  color: var(--darker);
 }
 .h-entry a:hover,
 .h-entry a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: rgba(170, 0, 238, 0.8);
+  color: var(--white);
+  background-color: var(--darker);
 }
 
 a.reply-by-email {
   display: block;
   line-height: 1.75;
   color: #000;
-  background-color: rgba(255, 238, 17, 0.9);
+  background-color: var(--yellow);
   margin: 5px;
   padding: 3px 3px 3px 10px;
   border: 3px solid black;
@@ -507,5 +520,5 @@ a.reply-by-email {
 }
 
 body {
-  background-color: rgba(170, 0, 238, 0.8);
+  background-color: var(--darker);
 }
