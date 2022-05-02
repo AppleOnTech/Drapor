@@ -72,7 +72,7 @@ html {
 }
 
 body {
-  color: var(--white);
+  color: red;
   background-color: var(--dark);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -168,8 +168,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: var(--red);
+  background-color: var(--white);
   border-radius: 3px;
 }
 pre {
