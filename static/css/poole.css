@@ -72,8 +72,8 @@ html {
 }
 
 body {
-  color: red;
-  background-color: var(--dark);
+  color: var(--white);
+  background-color: red;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
