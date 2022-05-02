@@ -73,7 +73,7 @@ html {
 
 body {
   color: var(--white);
-  background-color: var(--white);
+  background-color: var(--dark);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
