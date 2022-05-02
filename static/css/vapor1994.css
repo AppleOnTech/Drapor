@@ -247,7 +247,7 @@ video {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: var(--white);
+  background-color: var(--dark);
 }
 
 .post-date {
@@ -323,7 +323,7 @@ h1.page-title {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  background-color: var(--red);
+  background-color: var(--dark);
 }
 
 .page-content {
