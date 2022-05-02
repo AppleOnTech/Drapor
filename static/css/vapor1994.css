@@ -83,13 +83,13 @@
 
 /* Sidebar links */
 .sidebar-about a {
-  color: var(--var(--white));
+  color: var(--white);
 }
 .sidebar-about a:hover,
 .sidebar-about a:focus {
   text-decoration: none;
-  color: var(--var(--white));
-  background-color: var(--pink);
+  color: var(--white);
+  /* background-color: var(--pink); */
 }
 
 /* About section */
