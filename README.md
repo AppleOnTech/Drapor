@@ -1,42 +1,11 @@
-# Vapor1994
+# Drapor
 
-Vapor1994 is a two-column theme for micro.blog sites.
-
-## Contents
-
-- [Why?](#why)
-- [Screenshot](#screenshot)
-- [Usage](#usage)
-- [Author](#author)
-- [License](#license)
-
-## Why?
-
-I was inspired to create this theme due to my secret love for the Vaporwave/AMV music scene and aesthetics while also combining some ideas from the [Neubrutalism](https://hype4.academy/articles/design/neubrutalism-is-taking-over-web) trend.
-
+Drapor is a two-column theme for micro.blog sites using the [Dracula Theme colors](https://draculatheme.com) based on [Vapor1994](https://github.com/aezell/vapor1994) by Alex Ezell
 ## Screenshot
 
-This is what Vapor1994 looks like on [my blog](https://micro.alexezell.com).
+This is what Drapor looks like on [my blog](https://nixer.dev).
 
-![post](images/post.png)
-
-## Usage
-
-To install Vapor1994 on your micro.blog site, just use this repository's URL in the Design section of your site. You might also find it listed in the Plug-ins Directory at micro.blog.
-
-## Author
-
-**Alex Ezell**
-
-- <https://github.com/aezell>
-- <https://micro.alexezell.com>
-
-My dumb modifications of stellar work by:
-
-**Mark Otto**
-
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+![screenshot](images/screen.png)
 
 ## License
 
