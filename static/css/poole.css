@@ -183,7 +183,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: var(--white);
+  background-color: var(--dark);
   /* background-color: #f9f9f9; */
 }
 pre code {
@@ -413,7 +413,7 @@ tbody tr:nth-child(odd) th {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--white);
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
