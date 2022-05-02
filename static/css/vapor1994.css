@@ -308,7 +308,7 @@ h1.page-title {
 }
 
 .e-content a {
-  color: var(--darker);
+  color: var(--blue);
 }
 .e-content a:hover,
 .e-content a:focus {
