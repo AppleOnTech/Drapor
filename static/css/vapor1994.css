@@ -493,7 +493,7 @@ h1.page-title {
   background-color: var(--dark);
 }
 .h-entry a {
-  color: var(--darker);
+  color: var(--blue);
 }
 .h-entry a:hover,
 .h-entry a:focus {
