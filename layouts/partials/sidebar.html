@@ -12,7 +12,7 @@
     <nav class="sidebar-nav">
 
 		{{ range .Site.Menus.main }}
-			{{ if .Page.Params.redirect_url }}
+			{{ if .Page.Params.redirect }}
 				<a class="sidebar-nav-item" href="{{ .Page.Params.redirect }}">{{ .Name }}</a>
 			{{ else }}
 				<a class="sidebar-nav-item" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a>
