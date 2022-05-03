@@ -296,7 +296,7 @@ h1.page-title {
 .page-title a:hover,
 .page-title a:focus {
   text-decoration: none;
-  color: var(--white);
+  color: var(--pink);
   background-color: var(--darker));
 }
 
